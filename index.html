@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Collision Form Guidance — Offline Mock</title>
+<link rel="stylesheet" href="mock.css">
+</head>
+<body>
+<header class="topbar">
+  <div><div class="eyebrow">OFFLINE TEST ENVIRONMENT</div><h1>Collision Event Report</h1></div>
+  <div class="status">Read-only mock</div>
+</header>
+<div class="app">
+  <aside class="sidebar">
+    <h2>Sections</h2>
+    <nav id="sectionNav">
+      <button data-section="event_information" class="section-link active"><span>1</span> Event Information</button>
+      <button data-section="collision_event_details" class="section-link"><span>2</span> Collision Event Details</button>
+      <button data-section="scene_context" class="section-link"><span>3</span> Scene Context</button>
+      <button data-section="scene_context_-_novelty" class="section-link"><span>4</span> Scene Context – Novelty</button>
+    </nav>
+  </aside>
+  <main id="formRoot" class="content" aria-live="polite"></main>
+</div>
+<script src="mock.js"></script>
+</body>
+</html>
